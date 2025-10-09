@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video Thumbnails</title>
     <style>
-        /* Basic styles to match your theme and center the content */
         body {
-            background-color: #01131a; /* Dark blue from your nav bar */
+            /* THE FIX IS HERE: Changed from a color to transparent */
+            background-color: transparent;
             margin: 0;
             padding: 0;
             display: flex;
@@ -15,13 +15,11 @@
             align-items: center;
             min-height: 100vh;
         }
-        /* All the styles for your thumbnails, play button, etc. */
         .gallery-wrapper { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; width: 100%;}
         .gallery-item-container {
             flex-grow: 1;
             width: calc(50% - 10px);
             max-width: 632px;
-            /* min-width: 400px; <-- THE FIX: This rigid rule was removed */
             height: auto;
             aspect-ratio: 16 / 9;
             position: relative;
@@ -54,7 +52,6 @@
     </div>
 
     <script>
-        // This script sends a message to your main Carrd page when a thumbnail is clicked.
         document.addEventListener('DOMContentLoaded', function() {
             const galleryButtons = document.querySelectorAll('.gallery-item-button');
             galleryButtons.forEach(button => {
