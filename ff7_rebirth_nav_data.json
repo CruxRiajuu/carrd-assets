@@ -1,0 +1,44 @@
+{
+    "dropdownTitle": "FINAL FANTASY VII REBIRTH / GAME OVERVIEW",
+    "dropdownItems": [
+        {
+            "name": "FINAL FANTASY VII REMAKE",
+            "url": "YOUR_URL_HERE"
+        },
+        {
+            "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+            "url": "YOUR_URL_HERE"
+        },
+        {
+            "name": "FINAL FANTASY VII REBIRTH",
+            "isSection": true,
+            "children": [
+                {
+                    "name": "— GAME OVERVIEW",
+                    "url": "YOUR_URL_HERE"
+                },
+                {
+                    "name": "— CHARACTERS",
+                    "url": "YOUR_URL_HERE"
+                },
+                {
+                    "name": "— BATTLE",
+                    "url": "YOUR_URL_HERE"
+                },
+                {
+                    "name": "— WORLD",
+                    "url": "YOUR_URL_HERE"
+                }
+            ]
+        },
+        {
+            "name": "CRISIS CORE –FINAL FANTASY VII– REUNION",
+            "url": "YOUR_URL_HERE"
+        },
+        {
+            "name": "FINAL FANTASY VII EVER CRISIS",
+            "url": "YOUR_URL_HERE",
+            "isExternal": true
+        }
+    ]
+}
