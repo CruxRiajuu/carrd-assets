@@ -1,0 +1,29 @@
+{
+  "links": [
+    {
+      "name": "FINAL FANTASY VII REMAKE",
+      "url": "#remake"
+    },
+    {
+      "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+      "url": "#intergrade"
+    },
+    {
+      "name": "FINAL FANTASY VII REBIRTH",
+      "children": [
+        { "name": "— GAME OVERVIEW", "url": "#rebirthoverview" },
+        { "name": "— CHARACTERS", "url": "#rebirthcharacters" },
+        { "name": "— BATTLE", "url": "#rebirthbattle" },
+        { "name": "— WORLD", "url": "#rebirthworld" }
+      ]
+    },
+    {
+      "name": "CRISIS CORE –FINAL FANTASY VII– REUNION",
+      "url": "#crisiscore"
+    },
+    {
+      "name": "FINAL FANTASY VII EVER CRISIS",
+      "url": "#evercrisis"
+    }
+  ]
+}
