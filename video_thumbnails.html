@@ -14,21 +14,22 @@
             align-items: center;
             min-height: 100vh;
         }
-        .gallery-wrapper { 
-            display: flex; 
-            flex-wrap: wrap; 
-            justify-content: center; 
-            gap: 20px; 
-            padding: 20px; 
+        
+        .gallery-wrapper {
+            display: flex;
+            /* REMOVED flex-wrap to prevent stacking */
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
             width: 100%;
-            /* Add this to ensure the wrapper also respects box-sizing */
             box-sizing: border-box;
         }
+
         .gallery-item-container {
-            /* THE FIX IS HERE: This ensures the border is included in the width calculation */
             box-sizing: border-box;
-            flex-grow: 1;
-            width: calc(50% - 10px);
+            /* THE FIX: This property forces the items to share space and shrink as needed */
+            flex: 1 1 0;
+            
             max-width: 632px;
             height: auto;
             aspect-ratio: 16 / 9;
@@ -36,6 +37,7 @@
             border: 3px solid rgb(125, 187, 206);
             overflow: hidden;
         }
+
         .gallery-item-button { width: 100%; height: 100%; background: none; border: none; padding: 0; cursor: pointer; position: relative; }
         .gallery-item-button img { width: 100%; height: 100%; object-fit: cover; transform: scale(1); transition: transform 0.2s ease-in-out; }
         .gallery-item-button:hover img { transform: scale(1.1); }
