@@ -6,7 +6,6 @@
     <title>Video Thumbnails</title>
     <style>
         body {
-            /* THE FIX IS HERE: Changed from a color to transparent */
             background-color: transparent;
             margin: 0;
             padding: 0;
@@ -15,8 +14,19 @@
             align-items: center;
             min-height: 100vh;
         }
-        .gallery-wrapper { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; width: 100%;}
+        .gallery-wrapper { 
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: center; 
+            gap: 20px; 
+            padding: 20px; 
+            width: 100%;
+            /* Add this to ensure the wrapper also respects box-sizing */
+            box-sizing: border-box;
+        }
         .gallery-item-container {
+            /* THE FIX IS HERE: This ensures the border is included in the width calculation */
+            box-sizing: border-box;
             flex-grow: 1;
             width: calc(50% - 10px);
             max-width: 632px;
