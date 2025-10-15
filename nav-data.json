@@ -1,7 +1,5 @@
 {
   "leftNav": [
-    { "name": "Home", "url": "#home" },
-    {
       "name": "Portfolio", "url": "#portfolio",
       "children": [
         { "name": "Digital Works", "url": "#digitalworks" },
@@ -14,6 +12,7 @@
       ]
     },
     { "name": "Tag Wall", "url": "#tagwall" }
+    { "name": "Live", "url": "#live" }
   ],
   "rightNav": [
     { "name": "Reqs", "url": "#reqs" },
