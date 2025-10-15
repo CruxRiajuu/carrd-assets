@@ -13,7 +13,7 @@
         { "name": "Websites", "url": "#websites" }
       ]
     },
-    { "name": "Prices", "url": "#prices" }
+    { "name": "Tag Wall", "url": "#tagwall" }
   ],
   "rightNav": [
     { "name": "Reqs", "url": "#reqs" },
