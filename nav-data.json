@@ -16,8 +16,8 @@
     { "name": "Prices", "url": "#prices" }
   ],
   "rightNav": [
-    { "name": "Licensing", "url": "#licensing" },
     { "name": "Reqs", "url": "#reqs" },
+    { "name": "Licensing", "url": "#licensing" },
     {
       "name": "Order", "url": "#order",
       "children": [
