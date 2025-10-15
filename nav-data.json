@@ -1,6 +1,8 @@
 {
   "leftNav": [
-      "name": "Portfolio", "url": "#portfolio",
+    {
+      "name": "Portfolio",
+      "url": "#portfolio",
       "children": [
         { "name": "Digital Works", "url": "#digitalworks" },
         { "name": "Animations", "url": "#animations" },
@@ -11,23 +13,27 @@
         { "name": "Websites", "url": "#websites" }
       ]
     },
-    { "name": "Tag Wall", "url": "#tagwall" }
+    { "name": "Tag Wall", "url": "#tagwall" },
     { "name": "Live", "url": "#live" }
   ],
   "rightNav": [
     { "name": "Reqs", "url": "#reqs" },
     { "name": "Licensing", "url": "#licensing" },
     {
-      "name": "Order", "url": "#order",
+      "name": "Order",
+      "url": "#order",
       "children": [
         {
-          "name": "Digital Art", "url": "#digitalart",
+          "name": "Digital Art",
+          "url": "#digitalart",
           "children": [
             {
-              "name": "Chibi", "url": "#chibi",
+              "name": "Chibi",
+              "url": "#chibi",
               "children": [
                 {
-                  "name": "Portrait", "url": "#chibiportrait",
+                  "name": "Portrait",
+                  "url": "#chibiportrait",
                   "children": [
                     { "name": "Messy Scribble", "url": "#chibiportraitmessyscribble" },
                     { "name": "Sketch", "url": "#chibiportraitsketch" },
@@ -38,7 +44,8 @@
                   ]
                 },
                 {
-                  "name": "Waist-Up", "url": "#chibiwaistup",
+                  "name": "Waist-Up",
+                  "url": "#chibiwaistup",
                   "children": [
                     { "name": "Messy Scribble", "url": "#chibiwaistupmessyscribble" },
                     { "name": "Sketch", "url": "#chibiwaistupsketch" },
@@ -49,7 +56,8 @@
                   ]
                 },
                 {
-                  "name": "Full Body", "url": "#chibifullbody",
+                  "name": "Full Body",
+                  "url": "#chibifullbody",
                   "children": [
                     { "name": "Messy Scribble", "url": "#chibifullbodymessyscribble" },
                     { "name": "Sketch", "url": "#chibifullbodysketch" },
@@ -62,10 +70,12 @@
               ]
             },
             {
-              "name": "Anime", "url": "#anime",
+              "name": "Anime",
+              "url": "#anime",
               "children": [
                 {
-                  "name": "Portrait", "url": "#animeportrait",
+                  "name": "Portrait",
+                  "url": "#animeportrait",
                   "children": [
                     { "name": "Messy Scribble", "url": "#animeportraitmessyscribble" },
                     { "name": "Sketch", "url": "#animeportraitsketch" },
@@ -76,7 +86,8 @@
                   ]
                 },
                 {
-                  "name": "Waist-Up", "url": "#animewaistup",
+                  "name": "Waist-Up",
+                  "url": "#animewaistup",
                   "children": [
                     { "name": "Messy Scribble", "url": "#animewaistupmessyscribble" },
                     { "name": "Sketch", "url": "#animewaistupsketch" },
@@ -87,7 +98,8 @@
                   ]
                 },
                 {
-                  "name": "Full Body", "url": "#animefullbody",
+                  "name": "Full Body",
+                  "url": "#animefullbody",
                   "children": [
                     { "name": "Messy Scribble", "url": "#animefullbodymessyscribble" },
                     { "name": "Sketch", "url": "#animefullbodysketch" },
@@ -102,75 +114,219 @@
           ]
         },
         {
-          "name": "Animation", "url": "#animation",
+          "name": "Animation",
+          "url": "#animation",
           "children": [
             {
-              "name": "Inbetweens", "url": "#inbetweens",
+              "name": "Inbetweens",
+              "url": "#inbetweens",
               "children": [
-                {"name": "Sketched", "url": "#inbetweenssketched", "children": [{"name": "Animate By 4's", "url": "#inbetweenssketched4s"}, {"name": "Animate By 3's", "url": "#inbetweenssketched3s"}, {"name": "Animate By 2's", "url": "#inbetweenssketched2s"}, {"name": "Animate By 1's", "url": "#inbetweenssketched1s"}]},
-                {"name": "Clean Linework", "url": "#inbetweenscleanlinework", "children": [{"name": "Animate By 4's", "url": "#inbetweenscleanlinework4s"}, {"name": "Animate By 3's", "url": "#inbetweenscleanlinework3s"}, {"name": "Animate By 2's", "url": "#inbetweenscleanlinework2s"}, {"name": "Animate By 1's", "url": "#inbetweenscleanlinework1s"}]},
-                {"name": "Cel-Shaded", "url": "#inbetweenscelshaded", "children": [{"name": "Animate By 4's", "url": "#inbetweenscelshaded4s"}, {"name": "Animate By 3's", "url": "#inbetweenscelshaded3s"}, {"name": "Animate By 2's", "url": "#inbetweenscelshaded2s"}, {"name": "Animate By 1's", "url": "#inbetweenscelshaded1s"}]}
+                {
+                  "name": "Sketched",
+                  "url": "#inbetweenssketched",
+                  "children": [
+                    { "name": "Animate By 4's", "url": "#inbetweenssketched4s" },
+                    { "name": "Animate By 3's", "url": "#inbetweenssketched3s" },
+                    { "name": "Animate By 2's", "url": "#inbetweenssketched2s" },
+                    { "name": "Animate By 1's", "url": "#inbetweenssketched1s" }
+                  ]
+                },
+                {
+                  "name": "Clean Linework",
+                  "url": "#inbetweenscleanlinework",
+                  "children": [
+                    { "name": "Animate By 4's", "url": "#inbetweenscleanlinework4s" },
+                    { "name": "Animate By 3's", "url": "#inbetweenscleanlinework3s" },
+                    { "name": "Animate By 2's", "url": "#inbetweenscleanlinework2s" },
+                    { "name": "Animate By 1's", "url": "#inbetweenscleanlinework1s" }
+                  ]
+                },
+                {
+                  "name": "Cel-Shaded",
+                  "url": "#inbetweenscelshaded",
+                  "children": [
+                    { "name": "Animate By 4's", "url": "#inbetweenscelshaded4s" },
+                    { "name": "Animate By 3's", "url": "#inbetweenscelshaded3s" },
+                    { "name": "Animate By 2's", "url": "#inbetweenscelshaded2s" },
+                    { "name": "Animate By 1's", "url": "#inbetweenscelshaded1s" }
+                  ]
+                }
               ]
             },
             {
-              "name": "Full Animation", "url": "#fullyanimated",
+              "name": "Full Animation",
+              "url": "#fullyanimated",
               "children": [
-                {"name": "Sketched", "url": "#fullyanimatedsketched", "children": [{"name": "Animate By 4's", "url": "#fullyanimatedsketched4s"}, {"name": "Animate By 3's", "url": "#fullyanimatedsketched3s"}, {"name": "Animate By 2's", "url": "#fullyanimatedsketched2s"}, {"name": "Animate By 1's", "url": "#fullyanimatedsketched1s"}]},
-                {"name": "Clean Linework", "url": "#fullyanimatedcleanlinework", "children": [{"name": "Animate By 4's", "url": "#fullyanimatedcleanlinework4s"}, {"name": "Animate By 3's", "url": "#fullyanimatedcleanlinework3s"}, {"name": "Animate By 2's", "url": "#fullyanimatedcleanlinework2s"}, {"name": "Animate By 1's", "url": "#fullyanimatedcleanlinework1s"}]},
-                {"name": "Cel-Shaded", "url": "#fullyanimatedcelshaded", "children": [{"name": "Animate By 4's", "url": "#fullyanimatedcelshaded4s"}, {"name": "Animate By 3's", "url": "#fullyanimatedcelshaded3s"}, {"name": "Animate By 2's", "url": "#fullyanimatedcelshaded2s"}, {"name": "Animate By 1's", "url": "#fullyanimatedcelshaded1s"}]}
+                {
+                  "name": "Sketched",
+                  "url": "#fullyanimatedsketched",
+                  "children": [
+                    { "name": "Animate By 4's", "url": "#fullyanimatedsketched4s" },
+                    { "name": "Animate By 3's", "url": "#fullyanimatedsketched3s" },
+                    { "name": "Animate By 2's", "url": "#fullyanimatedsketched2s" },
+                    { "name": "Animate By 1's", "url": "#fullyanimatedsketched1s" }
+                  ]
+                },
+                {
+                  "name": "Clean Linework",
+                  "url": "#fullyanimatedcleanlinework",
+                  "children": [
+                    { "name": "Animate By 4's", "url": "#fullyanimatedcleanlinework4s" },
+                    { "name": "Animate By 3's", "url": "#fullyanimatedcleanlinework3s" },
+                    { "name": "Animate By 2's", "url": "#fullyanimatedcleanlinework2s" },
+                    { "name": "Animate By 1's", "url": "#fullyanimatedcleanlinework1s" }
+                  ]
+                },
+                {
+                  "name": "Cel-Shaded",
+                  "url": "#fullyanimatedcelshaded",
+                  "children": [
+                    { "name": "Animate By 4's", "url": "#fullyanimatedcelshaded4s" },
+                    { "name": "Animate By 3's", "url": "#fullyanimatedcelshaded3s" },
+                    { "name": "Animate By 2's", "url": "#fullyanimatedcelshaded2s" },
+                    { "name": "Animate By 1's", "url": "#fullyanimatedcelshaded1s" }
+                  ]
+                }
               ]
             }
           ]
         },
         {
-          "name": "V-Tuber Modeling", "url": "#vtubermodeling",
+          "name": "V-Tuber Modeling",
+          "url": "#vtubermodeling",
           "children": [
             { "name": "Portrait", "url": "#vtubermodelingportrait" },
             { "name": "Waist-Up", "url": "#vtubermodelingwaistup" },
             { "name": "Full Body", "url": "#vtubermodelingfullbody" },
             {
-              "name": "Add-Ons", "url": "#vtuberaddon",
+              "name": "Add-Ons",
+              "url": "#vtuberaddon",
               "children": [
-                {"name": "Portrait", "url": "#vtuberaddonportrait", "children": [{"name": "Standard", "url": "#vtuberaddonportraitstandard"}, {"name": "Premium", "url": "#vtuberaddonportraitpremium"}, {"name": "Ultimate", "url": "#vtuberaddonportraitultimate"}]},
-                {"name": "Waist-Up", "url": "#vtuberaddonwaistup", "children": [{"name": "Standard", "url": "#vtuberaddonwaistupstandard"}, {"name": "Premium", "url": "#vtuberaddonwaistuppremium"}, {"name": "Ultimate", "url": "#vtuberaddonwaistupultimate"}]},
-                {"name": "Full Body", "url": "#vtuberaddonfullbody", "children": [{"name": "Standard", "url": "#vtuberaddonfullbodystandard"}, {"name": "Premium", "url": "#vtuberaddonfullbodypremium"}, {"name": "Ultimate", "url": "#vtuberaddonfullbodyultimate"}]}
+                {
+                  "name": "Portrait",
+                  "url": "#vtuberaddonportrait",
+                  "children": [
+                    { "name": "Standard", "url": "#vtuberaddonportraitstandard" },
+                    { "name": "Premium", "url": "#vtuberaddonportraitpremium" },
+                    { "name": "Ultimate", "url": "#vtuberaddonportraitultimate" }
+                  ]
+                },
+                {
+                  "name": "Waist-Up",
+                  "url": "#vtuberaddonwaistup",
+                  "children": [
+                    { "name": "Standard", "url": "#vtuberaddonwaistupstandard" },
+                    { "name": "Premium", "url": "#vtuberaddonwaistuppremium" },
+                    { "name": "Ultimate", "url": "#vtuberaddonwaistupultimate" }
+                  ]
+                },
+                {
+                  "name": "Full Body",
+                  "url": "#vtuberaddonfullbody",
+                  "children": [
+                    { "name": "Standard", "url": "#vtuberaddonfullbodystandard" },
+                    { "name": "Premium", "url": "#vtuberaddonfullbodypremium" },
+                    { "name": "Ultimate", "url": "#vtuberaddonfullbodyultimate" }
+                  ]
+                }
               ]
             }
           ]
         },
         {
-          "name": "Video Editing", "url": "#videoediting",
+          "name": "Video Editing",
+          "url": "#videoediting",
           "children": [
             { "name": "Youtube Shorts", "url": "#youtubeshorts" },
             { "name": "Tik Tok", "url": "#tiktok" },
-            {"name": "Video Edit", "url": "#videoedit", "children": [{"name": "1080p", "url": "#videoedit1080p"}, {"name": "1440p", "url": "#videoediting1440p"}, {"name": "4k", "url": "#videoediting4k"}]}
+            {
+              "name": "Video Edit",
+              "url": "#videoedit",
+              "children": [
+                { "name": "1080p", "url": "#videoedit1080p" },
+                { "name": "1440p", "url": "#videoediting1440p" },
+                { "name": "4k", "url": "#videoediting4k" }
+              ]
+            }
           ]
         },
         {
-            "name": "Stream Kit", "url": "#streamkit",
-            "children": [
-              {"name": "Emotes", "url": "#emotes", "children": [{"name": "Single", "url": "#emotesingle"}, {"name": "Triple", "url": "#emotetriple"}, {"name": "Quintuple", "url": "#emotequintuple"}, {"name": "Decuple", "url": "#emotedecuple"}]},
-              {"name": "Stinger", "url": "#stinger", "children": [{"name": "1080p", "url": "#stinger1080p"}, {"name": "1440p", "url": "#stinger1440p"}, {"name": "4k", "url": "#stinger4k"}]},
-              {"name": "Live Status", "url": "#livestatus", "children": [{"name": "1080p", "url": "#livestatus1080p"}, {"name": "1440p", "url": "#livestatus1440p"}, {"name": "4k", "url": "#livestatus4k"}]}
-            ]
+          "name": "Stream Kit",
+          "url": "#streamkit",
+          "children": [
+            {
+              "name": "Emotes",
+              "url": "#emotes",
+              "children": [
+                { "name": "Single", "url": "#emotesingle" },
+                { "name": "Triple", "url": "#emotetriple" },
+                { "name": "Quintuple", "url": "#emotequintuple" },
+                { "name": "Decuple", "url": "#emotedecuple" }
+              ]
+            },
+            {
+              "name": "Stinger",
+              "url": "#stinger",
+              "children": [
+                { "name": "1080p", "url": "#stinger1080p" },
+                { "name": "1440p", "url": "#stinger1440p" },
+                { "name": "4k", "url": "#stinger4k" }
+              ]
+            },
+            {
+              "name": "Live Status",
+              "url": "#livestatus",
+              "children": [
+                { "name": "1080p", "url": "#livestatus1080p" },
+                { "name": "1440p", "url": "#livestatus1440p" },
+                { "name": "4k", "url": "#livestatus4k" }
+              ]
+            }
+          ]
         },
         {
-            "name": "Logo Design", "url": "#logodesign",
-            "children": [
-              { "name": "Mockup Sketch", "url": "#ldmockupsketch" },
-              { "name": "Lineart", "url": "#ldlineart" },
-              { "name": "Flats", "url": "#ldflats" },
-              { "name": "Cel-Shaded", "url": "#ldcelshaded" },
-              { "name": "3-D Simple", "url": "#ld3dsimple" }
-            ]
+          "name": "Logo Design",
+          "url": "#logodesign",
+          "children": [
+            { "name": "Mockup Sketch", "url": "#ldmockupsketch" },
+            { "name": "Lineart", "url": "#ldlineart" },
+            { "name": "Flats", "url": "#ldflats" },
+            { "name": "Cel-Shaded", "url": "#ldcelshaded" },
+            { "name": "3-D Simple", "url": "#ld3dsimple" }
+          ]
         },
         {
-            "name": "Web Design", "url": "#webdesign",
-            "children": [
-              {"name": "Carrd", "url": "#webdesigncarrd", "children": [{"name": "Splash Page", "url": "#webdesigncarrdsplashpage"}, {"name": "Starter Page", "url": "#webdesigncarrdstarterpage"}, {"name": "Pro Site", "url": "#webdesigncarrdprosite"}]},
-              {"name": "Self-Hosted", "url": "#webdesignselfhosted", "children": [{"name": "Essential", "url": "#webdesignselfhostedessential"}, {"name": "Business", "url": "#webdesignselfhostedbusiness"}, {"name": "Prestige", "url": "#webdesignselfhostedprestige"}]},
-              {"name": "E-Commerce", "url": "#webdesignecommerce", "children": [{"name": "Starter", "url": "#webdesignecommercestarter"}, {"name": "Advanced", "url": "#webdesignecommerceadvanced"}, {"name": "Enterprise", "url": "#webdesignecommerceenterprise"}]}
-            ]
+          "name": "Web Design",
+          "url": "#webdesign",
+          "children": [
+            {
+              "name": "Carrd",
+              "url": "#webdesigncarrd",
+              "children": [
+                { "name": "Splash Page", "url": "#webdesigncarrdsplashpage" },
+                { "name": "Starter Page", "url": "#webdesigncarrdstarterpage" },
+                { "name": "Pro Site", "url": "#webdesigncarrdprosite" }
+              ]
+            },
+            {
+              "name": "Self-Hosted",
+              "url": "#webdesignselfhosted",
+              "children": [
+                { "name": "Essential", "url": "#webdesignselfhostedessential" },
+                { "name": "Business", "url": "#webdesignselfhostedbusiness" },
+                { "name": "Prestige", "url": "#webdesignselfhostedprestige" }
+              ]
+            },
+            {
+              "name": "E-Commerce",
+              "url": "#webdesignecommerce",
+              "children": [
+                { "name": "Starter", "url": "#webdesignecommercestarter" },
+                { "name": "Advanced", "url": "#webdesignecommerceadvanced" },
+                { "name": "Enterprise", "url": "#webdesignecommerceenterprise" }
+              ]
+            }
+          ]
         }
       ]
     }
