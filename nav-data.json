@@ -16,8 +16,8 @@
     { "name": "Prices", "url": "#prices" }
   ],
   "rightNav": [
+    { "name": "Licensing", "url": "#licensing" },
     { "name": "Reqs", "url": "#reqs" },
-    { "name": "Contact", "url": "#contact" },
     {
       "name": "Order", "url": "#order",
       "children": [
@@ -150,31 +150,30 @@
         {
             "name": "Stream Kit", "url": "#streamkit",
             "children": [
-                {"name": "Emotes", "url": "#emotes", "children": [{"name": "Single", "url": "#emotesingle"}, {"name": "Triple", "url": "#emotetriple"}, {"name": "Quintuple", "url": "#emotequintuple"}, {"name": "Decuple", "url": "#emotedecuple"}]},
-                {"name": "Stinger", "url": "#stinger", "children": [{"name": "1080p", "url": "#stinger1080p"}, {"name": "1440p", "url": "#stinger1440p"}, {"name": "4k", "url": "#stinger4k"}]},
-                {"name": "Live Status", "url": "#livestatus", "children": [{"name": "1080p", "url": "#livestatus1080p"}, {"name": "1440p", "url": "#livestatus1440p"}, {"name": "4k", "url": "#livestatus4k"}]}
+              {"name": "Emotes", "url": "#emotes", "children": [{"name": "Single", "url": "#emotesingle"}, {"name": "Triple", "url": "#emotetriple"}, {"name": "Quintuple", "url": "#emotequintuple"}, {"name": "Decuple", "url": "#emotedecuple"}]},
+              {"name": "Stinger", "url": "#stinger", "children": [{"name": "1080p", "url": "#stinger1080p"}, {"name": "1440p", "url": "#stinger1440p"}, {"name": "4k", "url": "#stinger4k"}]},
+              {"name": "Live Status", "url": "#livestatus", "children": [{"name": "1080p", "url": "#livestatus1080p"}, {"name": "1440p", "url": "#livestatus1440p"}, {"name": "4k", "url": "#livestatus4k"}]}
             ]
         },
         {
             "name": "Logo Design", "url": "#logodesign",
             "children": [
-                { "name": "Mockup Sketch", "url": "#ldmockupsketch" },
-                { "name": "Lineart", "url": "#ldlineart" },
-                { "name": "Flats", "url": "#ldflats" },
-                { "name": "Cel-Shaded", "url": "#ldcelshaded" },
-                { "name": "3-D Simple", "url": "#ld3dsimple" }
+              { "name": "Mockup Sketch", "url": "#ldmockupsketch" },
+              { "name": "Lineart", "url": "#ldlineart" },
+              { "name": "Flats", "url": "#ldflats" },
+              { "name": "Cel-Shaded", "url": "#ldcelshaded" },
+              { "name": "3-D Simple", "url": "#ld3dsimple" }
             ]
         },
         {
             "name": "Web Design", "url": "#webdesign",
             "children": [
-                {"name": "Carrd", "url": "#webdesigncarrd", "children": [{"name": "Splash Page", "url": "#webdesigncarrdsplashpage"}, {"name": "Starter Page", "url": "#webdesigncarrdstarterpage"}, {"name": "Pro Site", "url": "#webdesigncarrdprosite"}]},
-                {"name": "Self-Hosted", "url": "#webdesignselfhosted", "children": [{"name": "Essential", "url": "#webdesignselfhostedessential"}, {"name": "Business", "url": "#webdesignselfhostedbusiness"}, {"name": "Prestige", "url": "#webdesignselfhostedprestige"}]},
-                {"name": "E-Commerce", "url": "#webdesignecommerce", "children": [{"name": "Starter", "url": "#webdesignecommercestarter"}, {"name": "Advanced", "url": "#webdesignecommerceadvanced"}, {"name": "Enterprise", "url": "#webdesignecommerceenterprise"}]}
+              {"name": "Carrd", "url": "#webdesigncarrd", "children": [{"name": "Splash Page", "url": "#webdesigncarrdsplashpage"}, {"name": "Starter Page", "url": "#webdesigncarrdstarterpage"}, {"name": "Pro Site", "url": "#webdesigncarrdprosite"}]},
+              {"name": "Self-Hosted", "url": "#webdesignselfhosted", "children": [{"name": "Essential", "url": "#webdesignselfhostedessential"}, {"name": "Business", "url": "#webdesignselfhostedbusiness"}, {"name": "Prestige", "url": "#webdesignselfhostedprestige"}]},
+              {"name": "E-Commerce", "url": "#webdesignecommerce", "children": [{"name": "Starter", "url": "#webdesignecommercestarter"}, {"name": "Advanced", "url": "#webdesignecommerceadvanced"}, {"name": "Enterprise", "url": "#webdesignecommerceenterprise"}]}
             ]
         }
       ]
-    },
-    { "name": "Merch", "url": "#merch" }
+    }
   ]
 }
